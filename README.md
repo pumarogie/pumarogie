@@ -14,7 +14,6 @@ Passionate about building software that works without adding redundant complexit
 - tailwind css
 
 **systems & backend**
-- c++, go
 - python + fastapi
 - node.js + bun + fastify, hono
 - postgresql + drizzle + prisma
