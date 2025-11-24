@@ -4,6 +4,7 @@ Passionate about building software that works without adding redundant complexit
 
 ## 🚀 what i'm building
 - [**mail-checker**](https://github.com/pumarogie/mail-checker): tool that checks the validity of emails in CSV, XLSX files
+- [**simple-compiler**](https://github.com/pumarogie/simple-compiler): A tree-walking interpreter in Go with functions, closures, arrays, hash maps, and dynamic typing - because sometimes you just need to understand how languages work under the hood
 - [**jagod**](coming soon): platform that provides verified Java programming feedback with adaptive difficulty calibration and personalized learning paths (still private repo)
 
 ## 🛠 my toolbox
