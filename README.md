@@ -24,6 +24,7 @@ Passionate about building software that works without adding redundant complexit
 **tools**
 - docker
 - azure
+- aws
 
 ## 🎯 development philosophy
 
