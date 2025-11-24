@@ -3,7 +3,8 @@
 Passionate about building software that works without adding redundant complexity
 
 ## 🚀 what i'm building
-- [**mail-checker**](https://github.com/pumarogie/mail-checker): tool that checks the validity of mail of csv, xlsx files
+- [**mail-checker**](https://github.com/pumarogie/mail-checker): tool that checks the validity of e-mail of csv, xlsx files
+
 - [**jagod**](coming): platfrom that provides verified Java programming feedback with adaptive difficulty calibration and personalized learning paths (still private repo)
 
 ## 🛠 my toolbox
