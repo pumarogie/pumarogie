@@ -37,11 +37,6 @@ Passionate about building software that works without adding redundant complexit
 - debating whether that abstraction is worth the complexity
 - contributing to projects that solve problems i actually have
 
-
-## 📊 github wrapped
-
-[![top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pumarogie&hide=java,ms+access&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=8bd5ca&layout=compact)](https://github.com/pumarogie)
-
 ## 💬 let's connect
 
 whether you want to discuss code, collaborate on projects, or just say hi:
