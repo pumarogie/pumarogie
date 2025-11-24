@@ -1,16 +1,53 @@
-## Hi there 👋
+# hey there, i'm Phillips 👋
 
-<!--
-**pumarogie/pumarogie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Passionate about building software that works without adding redundant complexity
 
-Here are some ideas to get you started:
+## 🚀 what i'm building
+- [**mail-checker**](https://github.com/pumarogie/mail-checker): tool that checks the validity of mail of csv, xlsx files
+- [**jagod**](coming): platfrom that provides verified Java programming feedback with adaptive difficulty calibration and personalized learning paths (still private repo)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 my toolbox
+
+**frontend & mobile**
+- javascript/typescript
+- react + next.js
+- tailwind css
+
+**systems & backend**
+- c++, go
+- python + fastapi
+- node.js + bun + fastify, hono
+- postgresql + drizzle + prisma
+- bullmq, rabbitmq
+- trpc
+
+**tools**
+- docker
+- azure
+
+## 🎯 development philosophy
+
+- start simple, stay simple
+- solve real problems, not imaginary ones
+- it is too complex if you can't explain it in 5 minutes
+
+## 🤝 open to
+
+- building stuff that people actually use
+- debating whether that abstraction is worth the complexity
+- contributing to projects that solve problems i actually have
+
+
+## 📊 github wrapped
+
+[![top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pumarogie&hide=java,ms+access&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=8bd5ca&layout=compact)](https://github.com/pumarogie)
+
+## 💬 let's connect
+
+whether you want to discuss code, collaborate on projects, or just say hi:
+
+- 💼 [linkedin](https://www.linkedin.com/in/phillipsuwu/)
+
+---
+
+*ps: if you made it this far, you deserve a cookie 🍪*
