@@ -1,44 +1,29 @@
-# hey there, i'm Phillips 👋
+# Hey there ✌🏾
 
-Passionate about building software that works without adding redundant complexity
+
+## Who am I? 
+I am Phillips Oluwaseun Uwumarogie, a German software engineer and computer science undergraduate student at the Technical University of Munich. 
 
 ## 🛠 my toolbox
 
-**frontend & mobile**
-- javascript/typescript
-- react + next.js
-- tailwind css
-
-**systems & backend**
-- python + fastapi
-- node.js + bun + fastify, hono
-- postgresql + drizzle + prisma
-- bullmq, rabbitmq
-- trpc
-
-**tools**
-- docker
-- azure
-- aws
+**Frontend & Mobile: ** Typescript/ React/ TailwindCSS
+**Systems & Backend: ** Python · FastAPI · Node.js · Bun · Fastify · PostgreSQL · Drizzle · Prisma · BullMQ · RabbitMQ · tRPC
+**Infrastucture: ** Docker · AWS · Azure
 
 ## 🎯 development philosophy
 
 - start simple, stay simple
-- solve real problems, not imaginary ones
-- it is too complex if you can't explain it in 5 minutes
+- solve real problems, not imaginary ones, focus on the user first
+- If it can't be explained in 5 minutes, it's too complex
 
 ## 🤝 open to
 
 - building stuff that people actually use
 - debating whether that abstraction is worth the complexity
-- contributing to projects that solve problems i actually have
+- conversations about when abstractions help vs. hurt
 
 ## 💬 let's connect
 
-whether you want to discuss code, collaborate on projects, or just say hi:
+whether you want to discuss problem, collaborate on projects, or just say hi:
 
 - 💼 [linkedin](https://www.linkedin.com/in/phillipsuwu/)
-
----
-
-*ps: if you made it this far, you deserve a cookie 🍪*
