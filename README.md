@@ -1,8 +1,8 @@
 # Phillips Oluwaseun Uwumarogie
 
-Software engineer. Computer science undergraduate at the Technical University of Munich. Based in Munich, Germany.
+German software engineer and computer science undergraduate at the Technical University of Munich.
 
-Arranging 0s and 1s in just the right order — mostly databases, developer tooling, and the unglamorous layer underneath the product.
+I work a layer below the product: database internals, Postgres tooling, compilers, and the kind of infrastructure that makes other engineers faster. Most of what is here started as a question I could only answer by building the thing myself.
 
 ## Selected work
 
