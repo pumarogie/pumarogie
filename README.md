@@ -1,7 +1,5 @@
 # Phillips Oluwaseun Uwumarogie
 
-German software engineer and Master computer science student  at the Technical University of Munich.
-
 Most of what is here started as a question I could only answer by building the thing myself.
 
 ## Selected work
