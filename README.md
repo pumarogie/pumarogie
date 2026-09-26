@@ -13,6 +13,10 @@ Most of what is here started as a question I could only answer by building the t
 | [ask-file](https://github.com/pumarogie/ask-file) | RAG over technical PDFs. |
 | [simple-compiler](https://github.com/pumarogie/simple-compiler) | A small compiler in Go, front to back. |
 
+## Writing
+
+**[Software Engineering in 2026](https://swe.marogie.com)**: a handbook for engineers who direct AI agents. It covers the workflow from plan to merged PR, prompting, TDD, code review, security, and the exact toolkit I run.
+
 ## Toolbox
 
 | Layer | Tools |
