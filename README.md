@@ -1,41 +1,37 @@
 # Phillips Oluwaseun Uwumarogie
 
-Most of what is here started as a question I could only answer by building the thing myself.
+Software engineer in Munich. I work on the layer where systems fail quietly: databases, overload, and data correctness.
+
+Most of what is here started as a question I could only answer by building the thing and measuring it.
 
 ## Selected work
 
-| Project | What it is |
-| --- | --- |
-| [pgwire-ocaml](https://github.com/pumarogie/pgwire-ocaml) | A PostgreSQL wire-protocol database engine written from scratch in OCaml — real `psql` connects to it. CRUD, joins, aggregates, transactions, WAL, indexes, and a cost-based planner. |
-| [mold](https://github.com/pumarogie/mold) | Rust CLI that converts JSON into TypeScript types, Zod schemas, and Prisma models. |
-| [schema-drift-checker](https://github.com/pumarogie/schema-drift-checker) | Detects Postgres schema drift — missing migrations, unknown migrations, structural column/index/FK changes — before it breaks production. Drizzle, Prisma, TypeORM, Sequelize, Kysely; any provider. Drop into CI, exits 1 on drift. |
-| [claude-postgres-skills](https://github.com/pumarogie/claude-postgres-skills) | Production Postgres survival skills for Claude Code: schema design, safe migrations, query performance, connection pooling, autovacuum/bloat, queue and partitioning patterns. |
-| [ask-file](https://github.com/pumarogie/ask-file) | RAG over technical PDFs. |
-| [simple-compiler](https://github.com/pumarogie/simple-compiler) | A small compiler in Go, front to back. |
+**Databases**
+
+- **[pgwire-ocaml](https://github.com/pumarogie/pgwire-ocaml)**: a relational database written from scratch in OCaml that real `psql` connects to. It implements the Postgres wire protocol, a SQL parser, a cost-based planner, WAL, indexes and transactions in about 1,450 lines with no dependencies beyond the standard library.
+- **[schema-drift-checker](https://github.com/pumarogie/schema-drift-checker)**: a CI gate that fails the build when the live Postgres schema and the migration history disagree. It works with Drizzle, Prisma, TypeORM, Sequelize and Kysely.
+- **[claude-postgres-skills](https://github.com/pumarogie/claude-postgres-skills)**: operational Postgres rules (safe migrations, pooling, autovacuum, queue patterns) packaged so coding agents apply them while writing SQL, before the incident.
+
+**Reliability and data quality**
+
+- **[load-shedding](https://github.com/pumarogie/load-shedding)**: a lab that pushes a fixed-capacity server past its limit and compares eight shedding strategies (CoDel, adaptive LIFO, Gradient, deadline, priority and others) on goodput and tail latency. Without shedding, 4x load leaves 32 rps of useful work out of 200.
+- **[bikeshare-dv](https://github.com/pumarogie/bikeshare-dv)**: a replication of Google's *Data Validation for ML* paper at 10^4 rows instead of 10^9. It injects five production-style faults into a daily-retrained model and scores which detectors catch them, and where the paper's assumptions break.
+
+**Products**
+
+- **[doki](https://github.com/pumarogie/doki)**: one document engine behind several PDF products: PDF/A conversion, XRechnung/ZUGFeRD e-invoicing, templated rendering, LLM extraction with confidence scores, and scheduled reports. It includes scoped API keys, quotas and signed webhooks.
+- **[mold](https://github.com/pumarogie/mold)**: a Rust CLI that turns JSON into TypeScript types, Zod schemas and Prisma models.
 
 ## Writing
 
-**[Software Engineering in 2026](https://swe.marogie.com)**: a handbook for engineers who direct AI agents. It covers the workflow from plan to merged PR, prompting, TDD, code review, security, and the exact toolkit I run.
+**[Software Engineering in 2026](https://swe.marogie.com)** is a handbook for engineers who direct AI agents. It covers the workflow from plan to merged PR, review, testing, security, and the toolkit I run.
 
-## Toolbox
+## How I work
 
-| Layer | Tools |
-| --- | --- |
-| Languages | TypeScript · Python · Rust · Go · OCaml · C++ |
-| Frontend | React · Next.js · TailwindCSS |
-| Backend | FastAPI · Node.js · Bun · Fastify · tRPC |
-| Data | PostgreSQL · Drizzle · Prisma · BullMQ · RabbitMQ |
-| Infrastructure | Docker · AWS · Azure |
-
-## Currently
-
-- Building **pgwire-ocaml** — a Postgres-compatible engine, because some parts of a database you only understand by writing them.
-- Packaging hard-won Postgres operational knowledge into reusable Claude Code skills.
-- Studying computer science at TU Munich.
+- Measure before arguing. The labs here publish the commands behind every number.
+- Prefer the boring fix in the shared path over a clever patch at the call site.
+- Write down trade-offs and the conditions under which a decision should be revisited.
 
 ## Contact
 
-- Email — [uwumarogiephillips@gmail.com](mailto:uwumarogiephillips@gmail.com)
-
-<!-- LinkedIn — https://linkedin.com/in/<handle> -->
-<!-- X — https://x.com/<handle> -->
+[uwumarogiephillips@gmail.com](mailto:uwumarogiephillips@gmail.com)
